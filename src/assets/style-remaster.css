@@ -80,44 +80,76 @@ body{
 
 #Software{
     display: grid;
-    border: solid;
+    /* border: solid; */
     grid-column: 2 / span 2;
-    grid-row: span 2
+    grid-row: span 2;
+
+    background-image: url('./images/lego-button-3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
 }
 
 #Cs{
     display: grid;
-    border: solid;
+    /* border: solid; */
     grid-column: span 2;
-    grid-row: span 2
+    grid-row: span 2;
+
+    background-image: url('./images/lego-button-3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
 }
 
 #Gamer{
     display: grid;
-    border: solid;
+    /* border: solid; */
     grid-column: 2 / span 2;
-    grid-row: 3 / span 2
+    grid-row: 3 / span 2;
+
+    background-image: url('./images/lego-button-3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
 }
 
 #Reader{
     display: grid;
-    border: solid;
+    /* border: solid; */
     grid-column: span 2;
-    grid-row: 3 / span 2
+    grid-row: 3 / span 2;
+
+    background-image: url('./images/lego-button-3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
 }
 
 #Coffee{
     display: grid;
-    border: solid;
+    /* border: solid; */
     grid-column:  2 / span 2;
-    grid-row: 5 / span 2
+    grid-row: 5 / span 2;
+
+    background-image: url('./images/lego-button-3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
 }
 
 #Tortilla{
     display: grid;
-    border: solid;
+    place-content: center;
+    /* border: solid; */
     grid-column: span 2;
-    grid-row: 5 / span 2
+    grid-row: 5 / span 2;
+
+    background-image: url('./images/lego-button-3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    
 }
 
 .picture{

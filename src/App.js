@@ -2,9 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import './assets/style-remaster.css';
 
-import me from './assets/images/me-sun-left.png';
-import image1 from './assets/images/me-at-desk-1.png';
-
 function App() {
   return (
     <div className="App">

@@ -5,7 +5,7 @@
 
 body{
     margin: 0;
-    background-color: rgb(143, 210, 255);
+    background-color: rgb(35, 40, 43);
     color: white;
 }
 
@@ -79,17 +79,32 @@ body{
     font: 32px;
 }
 
+
+
 #Software{
     display: grid;
     /* border: solid; */
     grid-column: 1 / span 2;
     grid-row: 2 / span 2;
 
-    background-image: url('./images/lego-btn-bright.png');
+    background-image: url('./images/lego-btn.png');
     background-size: 70%;
     background-position: center center;
     background-repeat: no-repeat;
 
+}
+
+#Software:hover{
+    display: grid;
+    border: solid;
+    border-color: pink;
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 2;
+
+    background-image: url('./images/lego-btn.png');
+    background-size: 70%;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 #Cs{
@@ -98,7 +113,7 @@ body{
     grid-column: 5 / span 2;
     grid-row: 2 / span 2;
 
-    background-image: url('./images/lego-btn-bright.png');
+    background-image: url('./images/lego-btn.png');
     background-size: 70%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -110,7 +125,7 @@ body{
     grid-column: 1 / span 2;
     grid-row: 4 / span 2;
 
-    background-image: url('./images/lego-btn-bright.png');
+    background-image: url('./images/lego-btn.png');
     background-size: 70%;
     background-position: center center;
     background-repeat: no-repeat;
@@ -118,14 +133,15 @@ body{
 
 #Reader{
     display: grid;
-    /* border: solid; */
+    border: solid;
     grid-column: 5 / span 2;
     grid-row: 4 / span 2;
 
-    background-image: url('./images/lego-btn-bright.png');
+    background-image: url('./images/lego-btn.png');
     background-size: 70%;
     background-position: center center;
     background-repeat: no-repeat;
+    justify-items: center;
 }
 
 .me{
@@ -134,7 +150,7 @@ body{
     grid-column: 3 / span 2;
     grid-row: 1 / span 6;
 
-    background-image: url('./images/me-sun-mid.png');
+    background-image: url('./images/lego-me.png');
     background-size: 70%;
     background-position: center center;
     background-repeat: no-repeat;
